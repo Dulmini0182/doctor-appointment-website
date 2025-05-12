@@ -33,9 +33,10 @@ jobs:
         working-directory: ./admin
         run: npm install
 
-      - name: 🧪 Run Backend Tests (placeholder)
+      - name: 🧪 Run Backend Tests (Jest)
         working-directory: ./backend
-        run: echo "No backend tests yet"
+        run: npm test
+
 
       - name: 🧪 Run Frontend Tests (placeholder)
         working-directory: ./frontend
